@@ -9,7 +9,7 @@ Python | pandas | matplotlib | seaborn | Jupyter Notebook
 - **10,000 transactions** across 6 product categories
 - **2,000 unique customers** with age, gender, and region data
 - **Date range:** January 2023 – December 2024
-- **Synthetically generated retail sales dataset created using generate_dataset.py for educational EDA purposes.
+- Synthetically generated retail sales dataset created using generate_dataset.py for educational EDA purposes.
 
 ## Key Findings
 - Strong **Nov-Dec seasonal spikes** driven by transaction volume
