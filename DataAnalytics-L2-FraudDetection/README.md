@@ -14,13 +14,34 @@ The project builds a machine learning pipeline to detect fraudulent credit card 
 
 ---
 
-## 📊 Dataset Information
-- **Benchmark:** Kaggle Credit Card Fraud Detection Dataset (MLG ULB / Worldline)
+## 📦 Dataset Information
+
+This project uses the **Credit Card Fraud Detection** benchmark dataset
+provided by the **Machine Learning Group (MLG) at Université Libre de
+Bruxelles (ULB) and Worldline**.
+
+- **Dataset:** Credit Card Fraud Detection
 - **Total Transactions:** 284,807
 - **Legitimate Transactions (Class 0):** 284,315 (99.827%)
 - **Fraudulent Transactions (Class 1):** 492 (0.173%)
 - **Imbalance Ratio:** ~578 : 1
-- **Features:** 30 numerical input features (`Time`, `V1` to `V28` PCA principal components, `Amount`) and binary target `Class`.
+- **Features:** 30 numerical input features (`Time`, `V1` to `V28`, `Amount`)
+  and binary target `Class`.
+
+### Dataset Source
+
+The dataset was obtained from the following Kaggle benchmark:
+
+**Credit Card Fraud Detection — MLG-ULB**
+
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+The original `creditcard.csv` file is approximately **143 MB** and is not
+included in this repository because it exceeds GitHub's single-file size
+limit.
+
+To run the notebook locally, download the dataset from the source above
+and place `creditcard.csv` in the project directory.
 
 ---
 
