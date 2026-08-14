@@ -13,3 +13,7 @@ This repository contains my project submissions for the Oasis Infobyte Internshi
 - **Level 1 — Customer Segmentation Analysis**
   - Customer segmentation analysis using RFM features and K-Means clustering
   - Project folder: `DataAnalytics-L1-CustomerSegmentation`
+
+- **Level 2 — Fraud Detection**
+  - Credit card fraud detection using machine learning on an imbalanced transaction dataset
+  - Project folder: `DataAnalytics-L1-FraudDetection`
