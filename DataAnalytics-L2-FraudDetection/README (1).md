@@ -1,5 +1,4 @@
-# OASIS INFOBYTE Data Analytics Internship
-## TASK 3: Credit Card Fraud Detection Pipeline
+# Credit Card Fraud Detection Pipeline
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
