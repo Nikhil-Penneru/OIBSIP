@@ -16,4 +16,4 @@ This repository contains my project submissions for the Oasis Infobyte Internshi
 
 - **Level 2 — Fraud Detection**
   - Credit card fraud detection using machine learning on an imbalanced transaction dataset
-  - Project folder: `DataAnalytics-L1-FraudDetection`
+  - Project folder: `DataAnalytics-L2-FraudDetection`
