@@ -6,9 +6,6 @@
 [![pandas](https://img.shields.io/badge/pandas-2.0+-150458.svg)](https://pandas.pydata.org/)
 [![Status](https://img.shields.io/badge/OASIS%20INFOBYTE-Task%202%20Complete-brightgreen.svg)]()
 
-> **OASIS INFOBYTE Data Analytics Internship — Task 2**  
-> *A production-grade, end-to-end unsupervised machine learning pipeline to segment e-commerce customers based on behavioural purchasing patterns and design high-impact targeted marketing strategies.*
-
 ---
 
 ## 📌 Executive Summary
@@ -26,18 +23,19 @@ This project develops an end-to-end **Customer Segmentation Pipeline** leveragin
 
 ## 📊 Dataset Overview & Provenance
 
-- **Source**: [UCI Machine Learning Repository — Online Retail Dataset](https://archive.ics.uci.edu/dataset/352/online+retail)
-- **Time Horizon**: December 1, 2010 to December 9, 2011
-- **Domain**: UK-based registered online retailer specializing in unique all-occasion gifts.
-- **Attributes**:
-  - `InvoiceNo`: 6-digit transaction identifier (prefix `'C'` denotes cancellation).
-  - `StockCode`: Distinct product identifier.
-  - `Description`: Item description.
-  - `Quantity`: Number of units purchased per transaction.
-  - `InvoiceDate`: Timestamp of transaction generation.
-  - `UnitPrice`: Unit price in British Pounds Sterling (£).
-  - `CustomerID`: Unique 5-digit customer identifier.
-  - `Country`: Customer's country of residence.
+- **Source:** [UCI Machine Learning Repository — Online Retail Dataset](https://archive.ics.uci.edu/dataset/352/online+retail)
+- **Original Dataset Format:** `Online Retail.xlsx`
+- **Local Analysis Format:** `Online_Retal.csv`
+- **Original Dataset Author:** Dr. Daqing Chen, School of Engineering, London South Bank University
+- **Domain:** UK-based registered online retailer specializing in unique all-occasion gifts.
+
+The original `Online Retail.xlsx` dataset was obtained from the UCI Machine
+Learning Repository and was converted locally to `Online_Retal.csv` for
+efficient loading and analysis.
+
+The generated CSV is not included in this repository. To run the notebook
+locally, download the original dataset from the UCI source above and place
+the converted `Online_Retal.csv` file in the `data/` directory.
 
 ---
 
