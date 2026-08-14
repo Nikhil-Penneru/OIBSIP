@@ -49,7 +49,7 @@ flowchart TD
     B --> C[Drop Exact Duplicates: -5,225 Rows]
     C --> D[Remove Cancellations: -8,872 Rows]
     D --> E[Filter Positive Quantity & UnitPrice: -40 Rows]
-    E --> F[Cleaned Dataset: 392,692 Rows | 4,338 Unique Customers]
+    E --> F[Cleaned Dataset: 392,692 Rows, 4,338 Unique Customers]
     F --> G[Customer RFM Feature Engineering]
     G --> H[StandardScaler Normalisation]
     H --> I[Elbow Method & Silhouette Evaluation: K=2..10]
